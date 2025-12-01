@@ -60,7 +60,7 @@ const TeamAreaGroupThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb  border-radius-5">
-                    <img src="assets/img/team/1.png" alt="img" />
+                    <img src="assets/img/team/team-1.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
                         <Link href="#">
@@ -90,7 +90,7 @@ const TeamAreaGroupThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb  border-radius-5">
-                    <img src="assets/img/team/2.png" alt="img" />
+                    <img src="assets/img/team/team-2.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
                         <Link href="#">
@@ -120,7 +120,7 @@ const TeamAreaGroupThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb  border-radius-5">
-                    <img src="assets/img/team/3.png" alt="img" />
+                    <img src="assets/img/team/team-3.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
                         <Link href="#">
@@ -150,7 +150,7 @@ const TeamAreaGroupThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb  border-radius-5">
-                    <img src="assets/img/team/1.png" alt="img" />
+                    <img src="assets/img/team/team-1.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
                         <Link href="#">
@@ -180,7 +180,7 @@ const TeamAreaGroupThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb  border-radius-5">
-                    <img src="assets/img/team/2.png" alt="img" />
+                    <img src="assets/img/team/team-2.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
                         <Link href="#">
@@ -210,7 +210,7 @@ const TeamAreaGroupThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb  border-radius-5">
-                    <img src="assets/img/team/3.png" alt="img" />
+                    <img src="assets/img/team/team-3.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
                         <Link href="#">

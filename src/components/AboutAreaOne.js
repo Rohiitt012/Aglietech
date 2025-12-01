@@ -31,7 +31,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src='assets/img/about/about-1.avif'
                   alt='img'
                 />
               </div>

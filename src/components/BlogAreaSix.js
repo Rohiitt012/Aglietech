@@ -44,7 +44,7 @@ const BlogAreaSix = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5 img-fluid"
-                    src="assets/img/blog/4.png"
+                    src="assets/img/blog/blog-4.webp"
                     alt="img"
                   />
                   <Link className="date-2" href="#">
@@ -76,7 +76,7 @@ const BlogAreaSix = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5 img-fluid"
-                    src="assets/img/blog/4.png"
+                    src="assets/img/blog/blog-4.webp"
                     alt="img"
                   />
                   <Link className="date-2" href="#">
@@ -108,7 +108,7 @@ const BlogAreaSix = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5 img-fluid"
-                    src="assets/img/blog/4.png"
+                    src="assets/img/blog/blog-4.webp"
                     alt="img"
                   />
                   <Link className="date-2" href="#">

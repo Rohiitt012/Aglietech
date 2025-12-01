@@ -18,7 +18,7 @@ const BlogAreaEight = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5"
-                    src="assets/img/blog/4.png"
+                    src="assets/img/blog/blog-4.webp"
                     alt="img"
                   />
                 </div>
@@ -48,7 +48,7 @@ const BlogAreaEight = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5"
-                    src="assets/img/blog/5.png"
+                    src="assets/img/blog/blog-5.jpg"
                     alt="img"
                   />
                 </div>
@@ -81,7 +81,7 @@ const BlogAreaEight = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5"
-                    src="assets/img/blog/6.png"
+                    src="assets/img/blog/blog-6.jpg"
                     alt="img"
                   />
                 </div>

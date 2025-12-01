@@ -25,7 +25,7 @@ const ContactAreaOne = () => {
                 data-aos-delay="200"
                 data-aos-duration="1500"
               >
-                <img className="w-100" src="assets/img/bg/4.png" alt="img" />
+                <img className="w-100" src="assets/img/bg/bg-4.png" alt="img" />
               </div>
               <div
                 className="col-lg-4 wow animated fadeInRight"

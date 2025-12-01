@@ -63,17 +63,17 @@ const BlogDetailsArea = () => {
                     <div className="row">
                       <div className="col-md-4">
                         <div className="thumb">
-                          <img src="assets/img/blog/4.png" alt="img" />
+                          <img src="assets/img/blog/blog-4.webp" alt="img" />
                         </div>
                       </div>
                       <div className="col-md-4">
                         <div className="thumb">
-                          <img src="assets/img/blog/5.png" alt="img" />
+                          <img src="assets/img/blog/blog-5.jpg" alt="img" />
                         </div>
                       </div>
                       <div className="col-md-4">
                         <div className="thumb">
-                          <img src="assets/img/blog/6.png" alt="img" />
+                          <img src="assets/img/blog/blog-6.jpg" alt="img" />
                         </div>
                       </div>
                     </div>

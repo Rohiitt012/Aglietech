@@ -11,7 +11,7 @@ const ProjectAreaGroup = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner">
                 <div className="thumb">
-                  <img src="assets/img/case-study/1.png" alt="img" />
+                  <img src="assets/img/case-study/case-study-1.jpg" alt="img" />
                 </div>
                 <div className="details">
                   <h5>
@@ -29,7 +29,7 @@ const ProjectAreaGroup = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner">
                 <div className="thumb">
-                  <img src="assets/img/case-study/2.png" alt="img" />
+                  <img src="assets/img/case-study/case-study-2.webp" alt="img" />
                 </div>
                 <div className="details">
                   <h5>
@@ -47,7 +47,7 @@ const ProjectAreaGroup = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner">
                 <div className="thumb">
-                  <img src="assets/img/case-study/3.png" alt="img" />
+                  <img src="assets/img/case-study/case-study-3.jpg" alt="img" />
                 </div>
                 <div className="details">
                   <h5>

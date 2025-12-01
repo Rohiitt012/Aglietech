@@ -85,7 +85,7 @@ const BannerOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/banner/1.png'
+                  src='assets/img/banner/banner-1.avif'
                   alt='img'
                 />
               </div>

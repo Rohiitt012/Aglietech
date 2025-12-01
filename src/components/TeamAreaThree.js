@@ -79,7 +79,7 @@ const TeamAreaThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb bg-gray border-radius-5">
-                    <img src="assets/img/team/1.png" alt="img" />
+                    <img src="assets/img/team/team-1.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
                         <Link href="#">
@@ -109,7 +109,7 @@ const TeamAreaThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb bg-gray border-radius-5">
-                    <img src="assets/img/team/2.png" alt="img" />
+                    <img src="assets/img/team/team-2.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
                         <Link href="#">
@@ -139,7 +139,7 @@ const TeamAreaThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb bg-gray border-radius-5">
-                    <img src="assets/img/team/3.png" alt="img" />
+                    <img src="assets/img/team/team-3.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
                         <Link href="#">
@@ -169,7 +169,7 @@ const TeamAreaThree = () => {
               <div className="item px-3">
                 <div className="single-team-inner text-center border-radius-5 bg-white">
                   <div className="thumb bg-gray border-radius-5">
-                    <img src="assets/img/team/1.png" alt="img" />
+                    <img src="assets/img/team/team-1.jpg" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
                         <Link href="#">
