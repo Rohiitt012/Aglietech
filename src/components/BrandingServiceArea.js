@@ -35,10 +35,10 @@ const BrandingServiceArea = () => {
                 We are a leading branding agency in Coimbatore, specializing in creating powerful brand identities that resonate with your target audience. Our team of creative professionals combines strategic thinking with innovative design to help businesses establish a strong and memorable brand presence.
               </p>
               <div className="d-flex gap-3">
-                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#fff', color: '#1e3a8a', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get Started
                 </Link>
-                <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: 'transparent', color: '#fff', border: '2px solid #fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Learn More
                 </Link>
               </div>
@@ -323,7 +323,7 @@ const BrandingServiceArea = () => {
               <p className="mb-5" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', maxWidth: '800px', margin: '0 auto' }}>
                 Let's work together to create a powerful brand that drives your business forward.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Contact Us
               </Link>
             </div>
@@ -435,18 +435,16 @@ const BrandingServiceArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

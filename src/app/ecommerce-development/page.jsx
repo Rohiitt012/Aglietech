@@ -13,7 +13,7 @@ const page = () => {
   return (
     <>
       <NavBar />
-      <Breadcrumb title={"Ecommerce Development"} />
+      <Breadcrumb title={"Ecommerce Development"} backgroundImage={"./assets/img/bg/ecommerce-breadcrumb-bg.jpg"} />
       <EcommerceDevelopmentArea />
       <FooterOne />
     </>

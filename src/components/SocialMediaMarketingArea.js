@@ -263,7 +263,7 @@ const SocialMediaMarketingArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 From <strong>Instagram reels</strong> that go viral to <strong>LinkedIn campaigns</strong> that attract B2B leads—our work speaks for itself. And our clients agree.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get Start Now <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -361,7 +361,7 @@ const SocialMediaMarketingArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 A social media strategy is the foundation of effective social media management. If you are looking to manage or create your social media accounts, then you will need a comprehensive social media strategy. As a social media management company, we design strategies to help you achieve your business goals through your social channels. It is a plan that helps you identify which social networks you should be on, what content to share, and how to generate engagement. Moreover, our social media strategy is a living document, meaning it evolves as we grow as a business.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Let's Talk To Expert <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -393,7 +393,7 @@ const SocialMediaMarketingArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 As an experienced social media management company, we can confidently say that a well-designed profile will make your business stand out on social media platforms. A poorly designed profile can lead people to overlook your business and opt for a competitor.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get a Quote <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -415,7 +415,7 @@ const SocialMediaMarketingArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 A well-crafted content strategy will help you drive more traffic and establish an online presence for your brand. To stay ahead in the fiercely competitive online world, you must stand out from the crowd and make a lasting impression on your target audience.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Contact Now <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -447,7 +447,7 @@ const SocialMediaMarketingArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Our specialists will handle tasks such as posting, scheduling, and other related tasks. Not only will this help you to save a lot of time by doing this, but it will also enhance your visibility on social media.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Let's Talk To Expert <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -495,7 +495,7 @@ const SocialMediaMarketingArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 The lifestyle filled with the glitz and glamor of influencers attracts everyone. If you want them to work in your favor, then you must know that influencer management is a spectacular way to grow your social media accounts by connecting with people who are already engaged with your target audience. As a social media management company, we will search and match your business with influencers who have a similar audience taste and can contribute to increasing brand awareness.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Contact Now <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -592,7 +592,7 @@ const SocialMediaMarketingArea = () => {
                     <p className="mb-4" style={{ fontSize: '16px', color: '#666' }}>
                       Ready to transform your social media presence? Contact us today for a free consultation and discover how we can help your business grow.
                     </p>
-                    <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#246bfd', color: '#fff', padding: '15px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'block' }}>
+                    <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                       Contact Us Now <FaArrowRight style={{ marginLeft: '8px' }} />
                     </Link>
                   </div>
@@ -773,18 +773,16 @@ const SocialMediaMarketingArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

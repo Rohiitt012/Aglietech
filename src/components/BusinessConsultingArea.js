@@ -23,10 +23,10 @@ const BusinessConsultingArea = () => {
                 RankON Technologies is a leading B2B SEO agency in India, specializing in crafting tailored SEO strategies that drive organic traffic, boost search engine rankings, and generate high-quality leads for your business. Our expert team understands the unique challenges of the B2B landscape, delivering measurable results that fuel your growth.
               </p>
               <div className="d-flex gap-3 mb-4">
-                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#ffc107', color: '#1a1a2e', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get a Quote
                 </Link>
-                <Link className="btn btn-base border-radius-5" href="tel:+919047941979" style={{ backgroundColor: '#28a745', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="tel:+919047941979" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   <FaPhone /> Call Now
                 </Link>
               </div>
@@ -601,18 +601,16 @@ const BusinessConsultingArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

@@ -25,7 +25,7 @@ const WebDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 We are a leading web development company that provides comprehensive website development services to help businesses establish a strong online presence. Our team of experienced developers and designers work together to create custom websites that are not only visually appealing but also functional, responsive, and optimized for search engines.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#28a745', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get a Quote
               </Link>
             </div>
@@ -120,7 +120,7 @@ const WebDevelopmentArea = () => {
               <p className="mb-5" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', maxWidth: '900px', margin: '0 auto' }}>
                 We are committed to delivering exceptional website development services that help businesses achieve their online goals. Our team of skilled professionals works closely with clients to understand their unique requirements and deliver customized solutions that exceed expectations.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get a Quote
               </Link>
             </div>
@@ -193,7 +193,7 @@ const WebDevelopmentArea = () => {
                   <li className="mb-3"><FaCheckCircle style={{ color: '#28a745', marginRight: '10px' }} />1 Month Free Support</li>
                   <li className="mb-3"><FaCheckCircle style={{ color: '#28a745', marginRight: '10px' }} />Basic Analytics</li>
                 </ul>
-                <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#28a745', color: '#fff', padding: '15px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'block' }}>
+                <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get Started
                 </Link>
               </div>
@@ -215,7 +215,7 @@ const WebDevelopmentArea = () => {
                   <li className="mb-3"><FaCheckCircle style={{ color: '#28a745', marginRight: '10px' }} />Advanced Analytics</li>
                   <li className="mb-3"><FaCheckCircle style={{ color: '#28a745', marginRight: '10px' }} />Blog Integration</li>
                 </ul>
-                <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'block' }}>
+                <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get Started
                 </Link>
               </div>
@@ -238,7 +238,7 @@ const WebDevelopmentArea = () => {
                   <li className="mb-3"><FaCheckCircle style={{ color: '#28a745', marginRight: '10px' }} />Blog Integration</li>
                   <li className="mb-3"><FaCheckCircle style={{ color: '#28a745', marginRight: '10px' }} />E-commerce Functionality</li>
                 </ul>
-                <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'block' }}>
+                <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get Started
                 </Link>
               </div>
@@ -381,7 +381,7 @@ const WebDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Our website development process is designed to ensure that we deliver high-quality websites that meet your business needs. We follow a systematic approach that includes planning, design, development, testing, and deployment. Our team works closely with you throughout the process to ensure that your vision is realized.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get a Quote
               </Link>
             </div>
@@ -498,18 +498,16 @@ const WebDevelopmentArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

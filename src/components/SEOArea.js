@@ -665,18 +665,16 @@ const SEOArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

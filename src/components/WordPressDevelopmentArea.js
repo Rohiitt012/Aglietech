@@ -643,18 +643,16 @@ const WordPressDevelopmentArea = () => {
             <div className="col-lg-6">
               <div className="faq-illustration text-center">
                 <img
-                  src="assets/img/faq-illustration.png"
+                  src="assets/img/faq-illustration.jpg"
                   alt="FAQs Illustration"
                   style={{
                     width: '100%',
-                    height: 'auto',
-                    maxWidth: '600px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    height: '100%',
+                    minHeight: '600px',
+                    maxWidth: '500px',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }}

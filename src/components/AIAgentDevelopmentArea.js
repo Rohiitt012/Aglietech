@@ -26,7 +26,7 @@ const AIAgentDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#fff' }}>
                 Transform your business with cutting-edge AI agent development solutions. Our platform empowers organizations to build, deploy, and scale intelligent AI agents that automate processes, enhance customer experiences, and drive unprecedented growth.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#fff', color: '#1e3a8a', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get Started
               </Link>
             </div>
@@ -409,18 +409,16 @@ const AIAgentDevelopmentArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 
@@ -443,10 +441,10 @@ const AIAgentDevelopmentArea = () => {
                 Get started today and discover how AI agent development can revolutionize your business operations and drive unprecedented growth.
               </p>
               <div className="d-flex gap-3 justify-content-center">
-                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#fff', color: '#1e3a8a', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get a Free Consultation
                 </Link>
-                <Link className="btn btn-base border-radius-5" href="/pricing" style={{ backgroundColor: '#fff', color: '#1e3a8a', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/pricing" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   View Pricing
                 </Link>
               </div>

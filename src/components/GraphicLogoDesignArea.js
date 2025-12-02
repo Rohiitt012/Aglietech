@@ -30,7 +30,7 @@ const GraphicLogoDesignArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#fff' }}>
                 Our logo designers in Coimbatore understand your business needs and blend creativity with strategy to deliver memorable logos – "Your logo is the face of your brand; make it unforgettable with our creative designs"
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#fff', color: '#1e3a8a', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 START YOUR PROJECT
               </Link>
             </div>
@@ -113,7 +113,7 @@ const GraphicLogoDesignArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', maxWidth: '900px', margin: '0 auto' }}>
                 We are specialized in Professional logo design in Coimbatore, where every logo designer is working in-house to provide you with the best quality logo designs within hours at cheap rates. We provide the best & attractive logo designs in Coimbatore and deliver a 100% money-back guarantee to our customers. Many reputed companies are now using our best logo design in Coimbatore.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 DESIGN YOUR LOGO
               </Link>
             </div>
@@ -372,7 +372,7 @@ const GraphicLogoDesignArea = () => {
                   Yes, No and Wow!."<br />
                   We always deliver you the <span style={{ color: '#3b82f6', fontWeight: '700' }}>WOW</span> logo designs as per your needs.
                 </p>
-                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#dc3545', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   GET YOUR DESIGN
                 </Link>
               </div>
@@ -394,7 +394,7 @@ const GraphicLogoDesignArea = () => {
               <h2 className="mb-5" style={{ fontSize: '36px', fontWeight: '700', color: '#fff' }}>
                 Do you want your business logo?
               </h2>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 SUBMIT YOUR NEED HERE
               </Link>
             </div>
@@ -682,7 +682,7 @@ const GraphicLogoDesignArea = () => {
               </h2>
             </div>
             <div className="col-lg-4 text-end">
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 REQUEST A FREE QUOTE
               </Link>
             </div>
@@ -863,18 +863,16 @@ const GraphicLogoDesignArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

@@ -46,7 +46,7 @@ const SaaSAppDevelopmentArea = () => {
                   <div style={{ color: '#fff', fontSize: '14px', fontWeight: '600' }}>UI/UX Design</div>
                 </div>
               </div>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get a Quote
               </Link>
             </div>
@@ -81,7 +81,7 @@ const SaaSAppDevelopmentArea = () => {
                 From initial concept to final deployment, we provide end-to-end development services. Our approach combines cutting-edge technology, best practices, and industry expertise to ensure your application is built to the highest standards.
               </p>
               <div className="text-center">
-                <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   View All Services
                 </Link>
               </div>
@@ -182,7 +182,7 @@ const SaaSAppDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', maxWidth: '1000px', margin: '0 auto' }}>
                 We develop SaaS apps for web, Android, and other platforms. Our SaaS development services include attractive UI/UX, smooth performance, high-speed cloud server connectivity, and end-to-end encrypted security services. Our development process includes Idea Discussion, Requirements Execution, UX/UI design, Frontend & Backend development, Quality assurance testing, product launch, and support. Our experienced project team includes a project manager, business analyst, senior developers, UI/UX designer, and QA engineer. Our development cost is simply awesome. Hire us for exclusive benefits.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 GET STARTED
               </Link>
             </div>
@@ -397,7 +397,7 @@ const SaaSAppDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 With our end-to-end SaaS development approach, we execute all the necessary components for a successful SaaS solution such as mobile applications, web applications, cloud hosting, APIs, and efficient data storage. When you choose Webnox, you get trust in a brand, India's top Saas Application development team having 15+ years of experience. We are specialists in SaaS-based products and helping companies in the journey of digital transformation by developing their thoughts into high-performing SaaS solutions.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 GET PROPOSAL
               </Link>
             </div>
@@ -668,18 +668,16 @@ const SaaSAppDevelopmentArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 
@@ -701,7 +699,7 @@ const SaaSAppDevelopmentArea = () => {
               <p className="mb-5" style={{ fontSize: '16px', lineHeight: '1.8', color: '#fff', maxWidth: '800px', margin: '0 auto' }}>
                 Ready to transform your business with a custom SaaS application? Contact us today for a free consultation and discover how we can help you achieve your goals.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#fff', color: '#1e3a8a', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Get Started
               </Link>
             </div>

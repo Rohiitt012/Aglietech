@@ -192,7 +192,7 @@ const SearchEngineOptimizationArea = () => {
                 <p className="mb-4" style={{ fontSize: '16px', color: '#666' }}>
                   Services
                 </p>
-                <Link className="btn btn-base border-radius-5" href="/on-page-seo" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '10px 20px', fontSize: '14px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/on-page-seo" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Learn More <FaArrowRight style={{ marginLeft: '8px' }} />
                 </Link>
               </div>
@@ -206,7 +206,7 @@ const SearchEngineOptimizationArea = () => {
                 <p className="mb-4" style={{ fontSize: '16px', color: '#666' }}>
                   Services
                 </p>
-                <Link className="btn btn-base border-radius-5" href="/off-page-seo" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '10px 20px', fontSize: '14px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/off-page-seo" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Learn More <FaArrowRight style={{ marginLeft: '8px' }} />
                 </Link>
               </div>
@@ -220,7 +220,7 @@ const SearchEngineOptimizationArea = () => {
                 <p className="mb-4" style={{ fontSize: '16px', color: '#666' }}>
                   Services
                 </p>
-                <Link className="btn btn-base border-radius-5" href="/technical-seo" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '10px 20px', fontSize: '14px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/technical-seo" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Learn More <FaArrowRight style={{ marginLeft: '8px' }} />
                 </Link>
               </div>
@@ -234,7 +234,7 @@ const SearchEngineOptimizationArea = () => {
                 <p className="mb-4" style={{ fontSize: '16px', color: '#666' }}>
                   Analysis
                 </p>
-                <Link className="btn btn-base border-radius-5" href="/competitor-analysis" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '10px 20px', fontSize: '14px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/competitor-analysis" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Learn More <FaArrowRight style={{ marginLeft: '8px' }} />
                 </Link>
               </div>
@@ -361,7 +361,7 @@ const SearchEngineOptimizationArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', maxWidth: '900px', margin: '0 auto' }}>
                 With RankON's SEO services in India, stay informed of how your website's SEO is progressing. Our team of SEO professionals will continually work on various SEO activities for your website, and our team of content writers will craft high-quality blog posts for diverse purposes. You will receive regular updates to keep you informed, as well as a monthly progress report to track your website's performance over the month.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Harness the Benefits of RankON's SEO Services <FaArrowRight style={{ marginLeft: '8px' }} />
               </Link>
             </div>
@@ -562,7 +562,7 @@ const SearchEngineOptimizationArea = () => {
                     <p className="mb-4" style={{ fontSize: '16px', color: '#666' }}>
                       Ready to improve your search engine rankings? Contact us today for a free SEO audit and discover how we can help your business grow.
                     </p>
-                    <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#246bfd', color: '#fff', padding: '15px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'block' }}>
+                    <Link className="btn btn-base border-radius-5 w-100" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                       Contact Us Now <FaArrowRight style={{ marginLeft: '8px' }} />
                     </Link>
                   </div>
@@ -677,18 +677,16 @@ const SearchEngineOptimizationArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 

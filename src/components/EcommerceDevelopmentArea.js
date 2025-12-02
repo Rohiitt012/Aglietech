@@ -1,5 +1,7 @@
+'use client'
 import Link from 'next/link';
 import React from 'react';
+import Marquee from 'react-fast-marquee';
 import {
   FaAngleDoubleRight,
   FaArrowRight,
@@ -19,28 +21,28 @@ const EcommerceDevelopmentArea = () => {
   return (
     <>
       {/* ===================== Hero Section ===================== */}
-      <div className="service-area pd-top-60 pd-bottom-60" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)' }}>
+      <div className="service-area pd-top-60 pd-bottom-60" style={{ background: '#f8f9fa' }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <h1 className="mb-4" style={{ fontSize: '42px', fontWeight: '700', color: '#fff' }}>
-                Empowering Creative Teams with E-commerce Solutions
+              <h1 className="mb-4" style={{ fontSize: '42px', fontWeight: '700', color: '#1a1a2e' }}>
+                Empowering Creative Teams with <span style={{ color: '#3b82f6' }}>E-commerce Solutions</span>
               </h1>
-              <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#fff' }}>
+              <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 We provide comprehensive e-commerce development services that help businesses build powerful online stores, manage inventory efficiently, and drive sales growth. Our expert team combines creativity, technology, and strategic thinking to deliver exceptional e-commerce solutions.
               </p>
               <div className="d-flex gap-3">
-                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#ffc107', color: '#1a1a2e', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Get Started
                 </Link>
-                <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: 'transparent', color: '#fff', border: '2px solid #fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+                <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   Learn More
                 </Link>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.3', color: '#fff' }}>🛒</div>
+                <img src="assets/img/bg/ecommerce-solutions-1.jpg" alt="Ecommerce Solutions" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
           </div>
@@ -62,69 +64,81 @@ const EcommerceDevelopmentArea = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="p-4 text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%' }}>
-                <FaUsers style={{ color: '#ffc107', fontSize: '64px', marginBottom: '20px' }} />
-                <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
-                  Team Collaboration
-                </h4>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
-                  Our collaborative approach ensures seamless communication and teamwork throughout the development process.
-                </p>
+              <div className="text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <img src="assets/img/collaborating-team-hero.jpg" alt="Team Collaboration" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px 12px 0 0' }} />
+                <div className="p-4" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                  <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
+                    Team Collaboration
+                  </h4>
+                  <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', margin: 0 }}>
+                    Our collaborative approach ensures seamless communication and teamwork throughout the development process. We work closely with your team to understand your business needs, align on goals, and deliver solutions that exceed expectations.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="p-4 text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%' }}>
-                <FaChartLine style={{ color: '#ffc107', fontSize: '64px', marginBottom: '20px' }} />
-                <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
-                  Real-time Analytics
-                </h4>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
-                  Get instant insights into your e-commerce performance with our comprehensive analytics and reporting tools.
-                </p>
+              <div className="text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <img src="assets/img/real-time-analytics.jpg" alt="Real-time Analytics" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px 12px 0 0' }} />
+                <div className="p-4" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                  <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
+                    Real-time Analytics
+                  </h4>
+                  <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', margin: 0 }}>
+                    Get instant insights into your e-commerce performance with our comprehensive analytics and reporting tools. Track sales trends, monitor customer behavior, analyze conversion rates, and identify growth opportunities in real-time.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="p-4 text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%' }}>
-                <FaFileAlt style={{ color: '#ffc107', fontSize: '64px', marginBottom: '20px' }} />
-                <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
-                  Project Management
-                </h4>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
-                  Efficient project management ensures timely delivery and successful implementation of your e-commerce platform.
-                </p>
+              <div className="text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <img src="assets/img/third-box-image.jpg" alt="Project Management" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px 12px 0 0' }} />
+                <div className="p-4" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                  <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
+                    Project Management
+                  </h4>
+                  <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', margin: 0 }}>
+                    Efficient project management ensures timely delivery and successful implementation of your e-commerce platform. Our experienced project managers use agile methodologies, detailed planning, and milestone tracking to keep your project on schedule and within budget.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="p-4 text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%' }}>
-                <FaMobileAlt style={{ color: '#ffc107', fontSize: '64px', marginBottom: '20px' }} />
-                <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
-                  Mobile Accessibility
-                </h4>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
-                  Access and manage your e-commerce store from anywhere with our fully responsive and mobile-optimized solutions.
-                </p>
+              <div className="text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <img src="assets/img/fourth-box-image.jpg" alt="Mobile Accessibility" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px 12px 0 0' }} />
+                <div className="p-4" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                  <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
+                    Mobile Accessibility
+                  </h4>
+                  <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', margin: 0 }}>
+                    Access and manage your e-commerce store from anywhere with our fully responsive and mobile-optimized solutions. Our mobile-first approach ensures your store looks and functions perfectly on all devices, from smartphones to tablets.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="p-4 text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%' }}>
-                <FaChartBar style={{ color: '#ffc107', fontSize: '64px', marginBottom: '20px' }} />
-                <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
-                  Performance Tracking
-                </h4>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
-                  Monitor and track your e-commerce performance with detailed metrics and actionable insights.
-                </p>
+              <div className="text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <img src="assets/img/fifth-box-image.jpg" alt="Performance Tracking" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px 12px 0 0' }} />
+                <div className="p-4" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                  <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
+                    Performance Tracking
+                  </h4>
+                  <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', margin: 0 }}>
+                    Monitor and track your e-commerce performance with detailed metrics and actionable insights. Our comprehensive tracking system captures key performance indicators including traffic sources, conversion rates, average order value, and revenue trends.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="p-4 text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%' }}>
-                <FaPiggyBank style={{ color: '#ffc107', fontSize: '64px', marginBottom: '20px' }} />
-                <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
-                  Cost Efficiency
-                </h4>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
-                  Maximize your ROI with cost-effective e-commerce solutions that deliver exceptional value.
-                </p>
+              <div className="text-center" style={{ background: '#f8f9fa', borderRadius: '12px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <img src="assets/img/sixth-box-image.jpg" alt="Cost Efficiency" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px 12px 0 0' }} />
+                <div className="p-4" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                  <h4 className="mb-3" style={{ fontSize: '24px', fontWeight: '700', color: '#1a1a2e' }}>
+                    Cost Efficiency
+                  </h4>
+                  <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', margin: 0 }}>
+                    Maximize your ROI with cost-effective e-commerce solutions that deliver exceptional value. We offer flexible pricing models, scalable infrastructure, and efficient development processes that reduce operational costs while maintaining high quality.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -142,7 +156,7 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-5" style={{ fontSize: '16px', lineHeight: '1.8', color: '#fff', maxWidth: '800px', margin: '0 auto' }}>
                 Transform your business with our comprehensive e-commerce development services. Let's build something amazing together.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#ffc107', color: '#1a1a2e', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/contact" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Sign Up Now
               </Link>
             </div>
@@ -161,13 +175,13 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Build a powerful online marketplace that connects buyers and sellers seamlessly. Our e-commerce platform offers comprehensive features including product listings, shopping cart, payment integration, order management, and customer reviews.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Learn More
               </Link>
             </div>
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.1', color: '#3b82f6' }}>🛍️</div>
+                <img src="assets/img/marketplace-image.png" alt="Marketplace" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
           </div>
@@ -180,7 +194,7 @@ const EcommerceDevelopmentArea = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.1', color: '#3b82f6' }}>📦</div>
+                <img src="assets/img/inventory-image.webp" alt="Inventory Management" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -190,7 +204,7 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Streamline your inventory management with our comprehensive dashboard. Track products, manage stock levels, set up automated alerts, and generate detailed reports. Our system helps you maintain optimal inventory levels and reduce operational costs.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Learn More
               </Link>
             </div>
@@ -209,13 +223,13 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Enhance collaboration with integrated communication tools. Our platform enables real-time messaging, file sharing, and team coordination, ensuring everyone stays connected and informed throughout the e-commerce development process.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Learn More
               </Link>
             </div>
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.1', color: '#3b82f6' }}>💬</div>
+                <img src="assets/img/connect-team-image.jpg" alt="Connect with Team" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
           </div>
@@ -228,7 +242,7 @@ const EcommerceDevelopmentArea = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.1', color: '#9c27b0' }}>📱</div>
+                <img src="assets/img/mobile-app-image.jpg" alt="Mobile App" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -238,7 +252,7 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Access your e-commerce store on the go with our mobile app. Manage products, process orders, track sales, and communicate with customers from anywhere. Our mobile solution provides a seamless experience across all devices.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#9c27b0', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Learn More
               </Link>
             </div>
@@ -257,13 +271,13 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Make data-driven decisions with our comprehensive analytics dashboard. Track sales performance, monitor customer behavior, analyze product trends, and identify growth opportunities. Our analytics tools provide actionable insights to optimize your e-commerce strategy.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#4caf50', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Learn More
               </Link>
             </div>
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.1', color: '#4caf50' }}>📊</div>
+                <img src="assets/img/analytics-image.webp" alt="Analytics" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
           </div>
@@ -276,7 +290,7 @@ const EcommerceDevelopmentArea = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="text-center">
-                <div style={{ fontSize: '200px', opacity: '0.1', color: '#fbc02d' }}>📄</div>
+                <img src="assets/img/document-management-image.jpg" alt="Document Management" style={{ width: '100%', height: 'auto', maxWidth: '100%', objectFit: 'contain', borderRadius: '12px' }} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -286,7 +300,7 @@ const EcommerceDevelopmentArea = () => {
               <p className="mb-4" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333' }}>
                 Keep all your e-commerce documents organized and accessible. Our document management system allows you to store, categorize, and retrieve invoices, contracts, product specifications, and other important files with ease.
               </p>
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#fbc02d', color: '#1a1a2e', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 Learn More
               </Link>
             </div>
@@ -299,7 +313,7 @@ const EcommerceDevelopmentArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/services" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 View All Features
               </Link>
             </div>
@@ -387,7 +401,7 @@ const EcommerceDevelopmentArea = () => {
           </div>
           <div className="row mt-4">
             <div className="col-lg-12 text-center">
-              <Link className="btn btn-base border-radius-5" href="/testimonials" style={{ backgroundColor: '#3b82f6', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600' }}>
+              <Link className="btn btn-base border-radius-5" href="/testimonials" style={{ backgroundColor: '#1e3a8a', color: '#fff', padding: '15px 40px', fontSize: '16px', fontWeight: '600', textAlign: 'center', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                 View All Testimonials
               </Link>
             </div>
@@ -408,27 +422,49 @@ const EcommerceDevelopmentArea = () => {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-6 mb-4">
-              <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
-                <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Adobe</div>
+          <div style={{ overflow: 'hidden', width: '100%' }}>
+            <Marquee direction="left" speed={30} gradient={false} pauseOnHover={false}>
+              <div className="mx-3" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', whiteSpace: 'nowrap' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <img src="assets/img/brand/adobe-logo.png" alt="Adobe" style={{ width: '40px', height: '40px', objectFit: 'contain', flexShrink: 0 }} />
+                    <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Adobe</div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-4">
-              <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
-                <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Google</div>
+              <div className="mx-3" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', whiteSpace: 'nowrap' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <img src="assets/img/brand/google-logo.png" alt="Google" style={{ width: 'auto', height: '32px', maxWidth: '100%', objectFit: 'contain', flexShrink: 0 }} />
+                    <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Google</div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-4">
-              <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
-                <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Microsoft</div>
+              <div className="mx-3" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', whiteSpace: 'nowrap' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <img src="assets/img/brand/microsoft-logo.webp" alt="Microsoft" style={{ width: '40px', height: '40px', objectFit: 'contain', flexShrink: 0 }} />
+                    <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Microsoft</div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-4">
-              <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
-                <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Shopify</div>
+              <div className="mx-3" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', whiteSpace: 'nowrap' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <img src="assets/img/brand/shopify-logo.jpeg" alt="Shopify" style={{ width: '40px', height: '40px', objectFit: 'contain', flexShrink: 0 }} />
+                    <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>Shopify</div>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div className="mx-3" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div className="text-center p-4" style={{ background: '#f8f9fa', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', whiteSpace: 'nowrap' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <img src="assets/img/brand/woocommerce-logo.png" alt="WooCommerce" style={{ width: 'auto', height: '32px', maxWidth: '100%', objectFit: 'contain', flexShrink: 0 }} />
+                    <div style={{ fontSize: '32px', fontWeight: '700', color: '#3b82f6' }}>WooCommerce</div>
+                  </div>
+                </div>
+              </div>
+            </Marquee>
           </div>
         </div>
       </div>
@@ -556,22 +592,46 @@ const EcommerceDevelopmentArea = () => {
             <div className="col-lg-6">
               <div className="text-center">
                 <img 
-                  src="assets/img/faq-illustration.png" 
+                  src="assets/img/faq-illustration.jpg" 
                   alt="FAQs Illustration" 
                   style={{ 
                     width: '100%', 
-                    height: 'auto', 
+                    height: '100%', 
+                    minHeight: '600px',
                     maxWidth: '500px',
-                    imageRendering: 'crisp-edges',
-                    imageRendering: '-webkit-optimize-contrast',
-                    imageRendering: 'optimizeQuality',
-                    WebkitBackfaceVisibility: 'hidden',
+                    objectFit: 'contain',
                     backfaceVisibility: 'hidden',
-                    transform: 'translateZ(0)',
+                    transform: 'translateZ(0px)',
                     willChange: 'transform',
                     filter: 'none'
                   }} 
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Team Section */}
+      <div className="service-area pd-top-20 pd-bottom-60">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 text-center mb-3">
+              <h2 className="mb-3" style={{ fontSize: '36px', fontWeight: '700', color: '#1a1a2e' }}>Our Team</h2>
+              <p className="mb-3" style={{ fontSize: '16px', lineHeight: '1.8', color: '#333', maxWidth: '900px', margin: '0 auto' }}>
+                Our diverse team of digital marketing experts works collaboratively to deliver exceptional results for our clients.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="text-center">
+                <img src="assets/img/team-silhouette.avif" alt="Our Team" style={{ width: '100%', height: '400px', maxWidth: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="text-center">
+                <img src="assets/img/our-team.jpg" alt="Our Team" style={{ width: '100%', height: '400px', maxWidth: '100%', objectFit: 'cover', borderRadius: '12px' }} />
               </div>
             </div>
           </div>
