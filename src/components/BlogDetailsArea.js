@@ -63,17 +63,17 @@ const BlogDetailsArea = () => {
                     <div className="row">
                       <div className="col-md-4">
                         <div className="thumb">
-                          <img src="assets/img/blog/blog-4.webp" alt="img" />
+                          <img src="assets/img/blog/blog-4.webp" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                         </div>
                       </div>
                       <div className="col-md-4">
                         <div className="thumb">
-                          <img src="assets/img/blog/blog-5.jpg" alt="img" />
+                          <img src="assets/img/blog/blog-5.jpg" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                         </div>
                       </div>
                       <div className="col-md-4">
                         <div className="thumb">
-                          <img src="assets/img/blog/blog-6.jpg" alt="img" />
+                          <img src="assets/img/blog/blog-6.webp" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                         </div>
                       </div>
                     </div>
@@ -314,7 +314,7 @@ const BlogDetailsArea = () => {
                     <li>
                       <div className="media">
                         <div className="media-left">
-                          <img src="assets/img/widget/1.png" alt="blog" />
+                          <img src="assets/img/widget/widget-1.jpg" alt="blog" style={{ width: '80px', height: '80px', objectFit: 'cover' }} />
                         </div>
                         <div className="media-body align-self-center">
                           <h6 className="title">
@@ -332,7 +332,7 @@ const BlogDetailsArea = () => {
                     <li>
                       <div className="media">
                         <div className="media-left">
-                          <img src="assets/img/widget/2.png" alt="blog" />
+                          <img src="assets/img/widget/widget-2.webp" alt="blog" style={{ width: '80px', height: '80px', objectFit: 'cover' }} />
                         </div>
                         <div className="media-body align-self-center">
                           <h6 className="title">

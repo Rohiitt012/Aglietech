@@ -18,7 +18,7 @@ const BlogGroupTwo = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-list">
                 <div className="thumb">
-                  <img src="assets/img/blog/blog-4.webp" alt="img" />
+                  <img src="assets/img/blog/blog-4.webp" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                   <p className="date mb-3">
@@ -52,7 +52,7 @@ const BlogGroupTwo = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-list">
                 <div className="thumb">
-                  <img src="assets/img/blog/blog-5.jpg" alt="img" />
+                  <img src="assets/img/blog/blog-5.jpg" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                   <p className="date mb-3">
@@ -86,7 +86,7 @@ const BlogGroupTwo = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-list">
                 <div className="thumb">
-                  <img src="assets/img/blog/blog-6.jpg" alt="img" />
+                  <img src="assets/img/blog/blog-6.webp" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                   <p className="date mb-3">

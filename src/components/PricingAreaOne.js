@@ -1,8 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
+import serviceList from '../scripts/serviceList';
 
 const PricingAreaOne = () => {
+  // Divide services into 3 groups of 5
+  const plan1Services = serviceList.slice(0, 5);
+  const plan2Services = serviceList.slice(5, 10);
+  const plan3Services = serviceList.slice(10, 15);
+
   return (
     <>
       {/* Pricing Area One start */}
@@ -18,34 +24,16 @@ const PricingAreaOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-inner style-3">
                 <h2 className="mb-3">
-                  $19 <sub>/mo</sub>
+                  ₹21111 <sub>/mo</sub>
                 </h2>
                 <h5>Started</h5>
                 <ul>
-                  <li>
-                    <FaCheck />
-                    Mobile App Development
-                  </li>
-                  <li>
-                    <FaCheck />
-                    Branding &amp; Identity
-                  </li>
-                  <li>
-                    <FaCheck />
-                    Email Marketing &amp; Automation
-                  </li>
-                  <li>
-                    <FaCheck />
-                    E-commerce Solutions
-                  </li>
-                  <li className="hide">
-                    <FaCheck />
-                    Social Media Management
-                  </li>
-                  <li className="hide">
-                    <FaCheck />
-                    Video &amp; Animation Production{' '}
-                  </li>
+                  {plan1Services.map((service, index) => (
+                    <li key={index}>
+                      <FaCheck />
+                      {service.title}
+                    </li>
+                  ))}
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
@@ -58,34 +46,16 @@ const PricingAreaOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-inner style-3 price-active">
                 <h2 className="mb-3">
-                  $19 <sub>/mo</sub>
+                  ₹21111 <sub>/mo</sub>
                 </h2>
                 <h5>Started</h5>
                 <ul>
-                  <li>
-                    <FaCheck />
-                    Mobile App Development
-                  </li>
-                  <li>
-                    <FaCheck />
-                    Branding &amp; Identity
-                  </li>
-                  <li>
-                    <FaCheck />
-                    Email Marketing &amp; Automation
-                  </li>
-                  <li>
-                    <FaCheck />
-                    E-commerce Solutions
-                  </li>
-                  <li className="hide">
-                    <FaCheck />
-                    Social Media Management
-                  </li>
-                  <li className="hide">
-                    <FaCheck />
-                    Video &amp; Animation Production{' '}
-                  </li>
+                  {plan2Services.map((service, index) => (
+                    <li key={index}>
+                      <FaCheck />
+                      {service.title}
+                    </li>
+                  ))}
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
@@ -98,34 +68,16 @@ const PricingAreaOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-inner style-3">
                 <h2 className="mb-3">
-                  $19 <sub>/mo</sub>
+                  ₹21111 <sub>/mo</sub>
                 </h2>
                 <h5>Started</h5>
                 <ul>
-                  <li>
-                    <FaCheck />
-                    Mobile App Development
-                  </li>
-                  <li>
-                    <FaCheck />
-                    Branding &amp; Identity
-                  </li>
-                  <li>
-                    <FaCheck />
-                    Email Marketing &amp; Automation
-                  </li>
-                  <li>
-                    <FaCheck />
-                    E-commerce Solutions
-                  </li>
-                  <li className="hide">
-                    <FaCheck />
-                    Social Media Management
-                  </li>
-                  <li className="hide">
-                    <FaCheck />
-                    Video &amp; Animation Production{' '}
-                  </li>
+                  {plan3Services.map((service, index) => (
+                    <li key={index}>
+                      <FaCheck />
+                      {service.title}
+                    </li>
+                  ))}
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"

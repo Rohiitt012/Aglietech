@@ -46,6 +46,7 @@ const BlogAreaSix = () => {
                     className="border-radius-5 img-fluid"
                     src="assets/img/blog/blog-4.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                   <Link className="date-2" href="#">
                     11May,2023
@@ -78,6 +79,7 @@ const BlogAreaSix = () => {
                     className="border-radius-5 img-fluid"
                     src="assets/img/blog/blog-4.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                   <Link className="date-2" href="#">
                     11May,2023
@@ -110,6 +112,7 @@ const BlogAreaSix = () => {
                     className="border-radius-5 img-fluid"
                     src="assets/img/blog/blog-4.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                   <Link className="date-2" href="#">
                     11May,2023

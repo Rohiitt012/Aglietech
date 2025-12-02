@@ -192,7 +192,7 @@ const BlogGroup = () => {
                     <li>
                       <div className='media'>
                         <div className='media-left'>
-                          <img src='assets/img/widget/1.png' alt='blog' />
+                          <img src='assets/img/widget/widget-1.jpg' alt='blog' style={{ width: '80px', height: '80px', objectFit: 'cover' }} />
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
@@ -210,7 +210,7 @@ const BlogGroup = () => {
                     <li>
                       <div className='media'>
                         <div className='media-left'>
-                          <img src='assets/img/widget/2.png' alt='blog' />
+                          <img src='assets/img/widget/widget-2.webp' alt='blog' style={{ width: '80px', height: '80px', objectFit: 'cover' }} />
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>

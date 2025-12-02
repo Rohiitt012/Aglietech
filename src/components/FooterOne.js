@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import {
-  FaArrowRight,
   FaCalendarAlt,
   FaEnvelope,
   FaFacebookF,
@@ -84,32 +83,32 @@ const FooterOne = () => {
                 <ul>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Ui Design
+                      Ui Design
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Web design
+                      Web design
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Digital marketing{' '}
+                      Digital marketing{' '}
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Video Editing
+                      Video Editing
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Pc Repairs
+                      Pc Repairs
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Web Development
+                      Web Development
                     </Link>
                   </li>
                 </ul>
@@ -121,32 +120,32 @@ const FooterOne = () => {
                 <ul>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Credit industrys
+                      Credit industrys
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Reasearch sector
+                      Reasearch sector
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Finance Sector{' '}
+                      Finance Sector{' '}
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Credit industrys
+                      Credit industrys
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Reasearch sector
+                      Reasearch sector
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Finance Sector
+                      Finance Sector
                     </Link>
                   </li>
                 </ul>
@@ -159,7 +158,7 @@ const FooterOne = () => {
                   <li>
                     <div className="media">
                       <div className="media-left">
-                        <img src="assets/img/widget/1.png" alt="blog" />
+                        <img src="assets/img/widget/widget-1.jpg" alt="blog" style={{ width: '80px', height: '80px', objectFit: 'cover' }} />
                       </div>
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">
@@ -177,7 +176,7 @@ const FooterOne = () => {
                   <li>
                     <div className="media">
                       <div className="media-left">
-                        <img src="assets/img/widget/2.png" alt="blog" />
+                        <img src="assets/img/widget/widget-2.webp" alt="blog" style={{ width: '80px', height: '80px', objectFit: 'cover' }} />
                       </div>
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">

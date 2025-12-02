@@ -7,25 +7,8 @@ const Breadcrumb = ({ title }) => {
       {/* ================ Breadcrumb Start ================*/}
       <div
         className='breadcrumb-area bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/bg/7.png")' }}
+        style={{ backgroundImage: 'url("./assets/img/bg/breadcrumb-bg.avif")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', width: '100%', height: 'auto', minHeight: '500px', marginBottom: '0', paddingBottom: '0', marginTop: '0', paddingTop: '0' }}
       >
-        <div className='container'>
-          <div className='breadcrumb-inner'>
-            <div className='row justify-content-center'>
-              <div className='col-lg-6'>
-                <h2 className='page-title'>{title}</h2>
-              </div>
-              <div className='col-lg-6 text-lg-end'>
-                <ul className='page-list'>
-                  <li>
-                    <Link href='/index-1'>Home</Link>
-                  </li>
-                  {"  "}/ <li>{title}</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       {/* ================ Breadcrumb End ================*/}
     </>

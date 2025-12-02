@@ -30,6 +30,7 @@ const BlogAreaThree = () => {
                     className="border-radius-5"
                     src="assets/img/blog/blog-4.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                   <p className="date">31 December,2022</p>
                 </div>
@@ -60,6 +61,7 @@ const BlogAreaThree = () => {
                     className="border-radius-5"
                     src="assets/img/blog/blog-5.jpg"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                   <p className="date">31 November,2022</p>
                 </div>
@@ -88,8 +90,9 @@ const BlogAreaThree = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5"
-                    src="assets/img/blog/blog-6.jpg"
+                    src="assets/img/blog/blog-6.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                   <p className="date">31 December,2022</p>
                 </div>

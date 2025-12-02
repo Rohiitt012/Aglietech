@@ -20,6 +20,7 @@ const BlogAreaEight = () => {
                     className="border-radius-5"
                     src="assets/img/blog/blog-4.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="details">
@@ -50,6 +51,7 @@ const BlogAreaEight = () => {
                     className="border-radius-5"
                     src="assets/img/blog/blog-5.jpg"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="details">
@@ -81,8 +83,9 @@ const BlogAreaEight = () => {
                 <div className="thumb">
                   <img
                     className="border-radius-5"
-                    src="assets/img/blog/blog-6.jpg"
+                    src="assets/img/blog/blog-6.webp"
                     alt="img"
+                    style={{ width: '516px', height: '350px', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="details">

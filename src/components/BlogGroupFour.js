@@ -17,7 +17,7 @@ const BlogGroupFour = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-list style-3">
                 <div className="thumb">
-                  <img src="assets/img/blog/blog-4.webp" alt="img" />
+                  <img src="assets/img/blog/blog-4.webp" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                   <ul className="blog-meta">
@@ -51,7 +51,7 @@ const BlogGroupFour = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-list style-3">
                 <div className="thumb">
-                  <img src="assets/img/blog/blog-5.jpg" alt="img" />
+                  <img src="assets/img/blog/blog-5.jpg" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                   <ul className="blog-meta">
@@ -85,7 +85,7 @@ const BlogGroupFour = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-list style-3">
                 <div className="thumb">
-                  <img src="assets/img/blog/blog-6.jpg" alt="img" />
+                  <img src="assets/img/blog/blog-6.webp" alt="img" style={{ width: '516px', height: '350px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                   <ul className="blog-meta">
